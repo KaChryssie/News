@@ -1,0 +1,30 @@
+{% macro displaySourceList(source_list) %}
+<div class="container">
+    <div class="row">
+{% for source in source_list%}
+    <div class="col-md-6 card" >
+        <div class="col-xs-12 col-sm-4 col-lg-4 col-md-5" id="source">
+            <h3>
+                {{source.name}}
+            </h3>
+            <br>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-lg-8 col-md-7" id="description">
+            <p>{{source.description}}</p>
+            <a href="/article/{{source.id}}">Visit site</a>
+            <br>
+        </div>
+    </div>
+    
+
+{% endfor %}
+</div>
+</div>
+<hr>
+<!-- footer -->
+<footer class="container-fluid" style="padding: 15px;">
+  <div class="footer-copyright text-center py-3" style = "color : white;">© 2020 Copyright |
+  <a href="#"> Developed by: Chryssie Karera</a>
+  </div>
+</footer>
+{% endmacro %}
