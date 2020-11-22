@@ -42,10 +42,10 @@ With the application, a user will be able to:
 # Running the Application
 To run the application, in your terminal: (virtual)$ python3.6 run.py
 
-# Support and Contact details
-EMAIL: karerassie@gmail.com
 
-License
-MIT License
+## Contact information.
+Email: karerassie@gmail.com
 
-Copyright (c) 2019 Chryssie Karera
+## License
+MIT : 2020 [KaChryssie](https://github.com/KaChryssie/)
+
